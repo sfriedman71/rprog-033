@@ -24,6 +24,9 @@ rankhospital <- function(p.state, p.outcome, p.num = "best") {
   ## 30-day death rate
 }
 
+
+
+
 test.rankhospital <- function() {
   
   rankhospital("TX", "heart failure", 4)
